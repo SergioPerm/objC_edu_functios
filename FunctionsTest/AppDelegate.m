@@ -7,10 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ChildClass.h"
 
 @interface AppDelegate ()
 
-@end
+@end 
 
 @implementation AppDelegate
 
@@ -22,6 +23,18 @@
     self.window.rootViewController = [[UIViewController alloc] init];
     [self.window makeKeyAndVisible];
 
+    ChildClass* pClass = [[ChildClass alloc] init];
+    
+    [pClass sayHello];
+    
+    [pClass say: @"HUYLO"];
+    [pClass say: @"OLOLOEPTA" and: @"HUYNARUL"];
+    
+    NSLog(@"%@",[pClass saySomething]);
+    NSLog(@"%@",[pClass saySomething2]);
+    
+    [ChildClass whoAreYou];
+    
     return YES;
 }
 

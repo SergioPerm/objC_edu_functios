@@ -13,6 +13,8 @@
 		84852D8C20AD5E2D00D7E837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84852D8A20AD5E2D00D7E837 /* LaunchScreen.storyboard */; };
 		84852D9720AD5E2D00D7E837 /* FunctionsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84852D9620AD5E2D00D7E837 /* FunctionsTestTests.m */; };
 		84852DA220AD5E2D00D7E837 /* FunctionsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84852DA120AD5E2D00D7E837 /* FunctionsTestUITests.m */; };
+		84852DBA20AD61E500D7E837 /* ParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84852DB920AD61E500D7E837 /* ParentClass.m */; };
+		84852DBD20AD79B100D7E837 /* ChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84852DBC20AD79B100D7E837 /* ChildClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		84852D9D20AD5E2D00D7E837 /* FunctionsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84852DA120AD5E2D00D7E837 /* FunctionsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionsTestUITests.m; sourceTree = "<group>"; };
 		84852DA320AD5E2D00D7E837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84852DB820AD61E500D7E837 /* ParentClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentClass.h; sourceTree = "<group>"; };
+		84852DB920AD61E500D7E837 /* ParentClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentClass.m; sourceTree = "<group>"; };
+		84852DBB20AD79B100D7E837 /* ChildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildClass.h; sourceTree = "<group>"; };
+		84852DBC20AD79B100D7E837 /* ChildClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,10 @@
 		84852D8120AD5E2D00D7E837 /* FunctionsTest */ = {
 			isa = PBXGroup;
 			children = (
+				84852DB820AD61E500D7E837 /* ParentClass.h */,
+				84852DB920AD61E500D7E837 /* ParentClass.m */,
+				84852DBB20AD79B100D7E837 /* ChildClass.h */,
+				84852DBC20AD79B100D7E837 /* ChildClass.m */,
 				84852D8520AD5E2D00D7E837 /* AppDelegate.h */,
 				84852D8620AD5E2D00D7E837 /* AppDelegate.m */,
 				84852D8820AD5E2D00D7E837 /* Assets.xcassets */,
@@ -262,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84852D8720AD5E2D00D7E837 /* AppDelegate.m in Sources */,
+				84852DBD20AD79B100D7E837 /* ChildClass.m in Sources */,
 				84852D8420AD5E2D00D7E837 /* main.m in Sources */,
+				84852DBA20AD61E500D7E837 /* ParentClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
